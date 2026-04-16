@@ -1,0 +1,14 @@
+•	Thông tin điểm Wi Fi:
+    •	loại địa điểm: café, nhà hàng, trung tâm thương mại (độ phù hợp với target nhà thầu)
+    •	địa chỉ: đánh giá mức độ hot của địa điểm
+•	Thông tin thời gian:
+    •	timestamp
+    •	giờ trong ngày, thứ trong tuần, flag cuối tuần/ngày lễ
+•	Thông tin giá:
+    •	hợp đồng giá với các nhà thầu: lấy được  khoảng giá ban đầu, coi như là first price (cần tìm hiểu thêm cơ chế tạo nhiễu để huấn luyện như tăng thêm một chút với giờ được cho là hot và giảm đi với các giờ trung bình,..)
+•	Thông tin user:
+    •	loại thiết bị: mobile/laptop, hệ điều hành: Android/iOS (maybe không cần)
+    •	lần đầu hay đã từng kết nối AWING trước đó (mức độ quay lại địa điểm của user)
+    •	nhân khẩu: tuổi, giới tính,..(độ phù hợp của qc)
+
+
