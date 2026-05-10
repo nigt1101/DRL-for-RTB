@@ -307,18 +307,14 @@ Ngoài ra:
 - reward hội tụ ổn định hơn theo thời gian
 - policy update tương đối ổn định
 
----
-
-# 9. Visualization
-
 ## PPO Training Reward
 
 <div align="center">
 
-<img src="images/reward_curve.png" width="750"/>
+<img src="Screenshot%202026-05-10%20211229.png" width="750"/>
 
 <br>
-<b>Figure 1.</b> PPO Training Reward Curve
+<b>Figure 1.</b> So sánh giữa giá bid thực tế và giá sàn agent đặt
 
 </div>
 
@@ -328,10 +324,10 @@ Ngoài ra:
 
 <div align="center">
 
-<img src="images/revenue_fillrate.png" width="750"/>
+<img src="Screenshot%202026-05-10%20211259.png" width="750"/>
 
 <br>
-<b>Figure 2.</b> Revenue vs Fill-rate
+<b>Figure 2.</b> Phân phối của giá bid thực tế và giá sàn agent đặt
 
 </div>
 
@@ -341,23 +337,10 @@ Ngoài ra:
 
 <div align="center">
 
-<img src="images/beta_curve.png" width="750"/>
+<img src="Screenshot%202026-05-10%20211308.png" width="750"/>
 
 <br>
-<b>Figure 3.</b> Dynamic Risk Factor
-
-</div>
-
----
-
-## Reserve Price Distribution
-
-<div align="center">
-
-<img src="images/reserve_distribution.png" width="750"/>
-
-<br>
-<b>Figure 4.</b> Learned Reserve Distribution
+<b>Figure 3.</b> Phân phối gap giữa giá sàn và giá bid thực tế
 
 </div>
 
