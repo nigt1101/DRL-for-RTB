@@ -101,23 +101,13 @@ Cơ chế này giúp agent học reserve price liên tục thay vì discrete pri
 Nếu phiên đấu giá thành công:
 
 $$
-reward_t =
-\left(
-\frac{revenue_t}{1000}
--
-\frac{|bid_t - r_t|}{300}
-\right)\beta_t
+reward_t = \left(\frac{revenue_t}{1000}-\frac{|bid_t - r_t|}{300}\right)\beta_t
 $$
 
 Nếu phiên đấu giá thất bại:
 
 $$
-reward_t =
--1.5
-\cdot
-\frac{|bid_t - r_t|}{1000}
--
-\frac{\zeta}{1000}
+reward_t =-1.5\cdot\frac{|bid_t - r_t|}{1000}-\frac{\zeta}{1000}
 $$
 
 Trong đó:
@@ -307,7 +297,7 @@ Ngoài ra:
 - reward hội tụ ổn định hơn theo thời gian
 - policy update tương đối ổn định
 
-## PPO Training Reward
+## So sánh giữa giá bid thực tế và giá sàn agent đặt
 
 <div align="center">
 
@@ -320,7 +310,7 @@ Ngoài ra:
 
 ---
 
-## Revenue vs Fill-rate
+## Phân phối của giá bid thực tế và giá sàn agent đặt
 
 <div align="center">
 
@@ -333,7 +323,7 @@ Ngoài ra:
 
 ---
 
-## Adaptive Beta Factor
+## Phân phối gap giữa giá sàn và giá bid thực tế
 
 <div align="center">
 
@@ -360,6 +350,4 @@ Ngoài ra:
 Các hướng cải thiện tiếp theo:
 - inventory value segmentation
 - context clustering
-- Transformer-based state encoder
 - SAC / TD3 comparison
-- Distributional Reinforcement Learning
