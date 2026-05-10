@@ -6,6 +6,7 @@ scikit-learn>=0.21.0
 stable-baselines3[extra]
 tensorboard
 torch>=1.7.0
-
+scikit-learn
+seaborn
 
 

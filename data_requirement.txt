@@ -11,4 +11,12 @@
     •	lần đầu hay đã từng kết nối AWING trước đó (mức độ quay lại địa điểm của user)
     •	nhân khẩu: tuổi, giới tính,..(độ phù hợp của qc)
 
+oses = ["windows", "ios", "mac", "android", "linux"]
+browsers = ["chrome", "sogou", "maxthon", "safari", "firefox", "theworld", "opera", "ie"]
+
+f1s = ["weekday", "hour", "IP", "region", "city", "adexchange", "domain", "slotid", "slotwidth", "slotheight", "slotvis>
+f1sp = ["useragent", "slotprice"]
+
+f2s = ["weekday,region"]
+
 
